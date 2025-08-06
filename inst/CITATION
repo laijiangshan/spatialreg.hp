@@ -1,0 +1,16 @@
+citHeader("To cite phylolm.hp in publications use:")
+
+bibentry(bibtype = "Article",
+         title        = "Extension of the glmm.hp package to Zero-Inflated generalized linear mixed models and multiple regression.",
+         author       = as.person("Jiangshan Lai [aut],Weijie Zhu[aut],Dongfang Cui [aut],Lingfeng Mao [aut]"),
+         journal      = "Journal of Plant Ecology",
+		  volume       = "16(6):rtad038",
+         year         = "2023",
+         url          = "https://doi.org/10.1093/jpe/rtad038",
+
+         textVersion  =
+           paste("Jiangshan Lai, Weijie Zhu, Dongfang Cui, Lingfeng Mao(2023).",
+                 "Extension of the glmm.hp package to Zero-Inflated generalized linear mixed models and multiple regression.",
+                 "Journal of Plant Ecology,16(6):rtad038",
+                 "URL https://doi.org/10.1093/jpe/rtad038")
+)

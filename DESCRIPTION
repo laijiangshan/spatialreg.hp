@@ -1,0 +1,13 @@
+Package: spatialreg.hp
+Type: Package
+Title: Hierarchical Partitioning of R2 for Spatial Simultaneous Autoregressive Model
+Version: 0.0-1
+Date: 2025-8-6
+Depends: R (>= 3.4.0),spatialreg,ggplot2,vegan
+Authors@R: person("Jiangshan", "Lai", email="lai@njfu.edu.cn", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-0279-8816"))
+Maintainer: Jiangshan Lai <lai@njfu.edu.cn>
+Description: Conducts hierarchical partitioning to calculate individual contributions of spatial and  predictors (groups) towards total R2  for spatial simultaneous autoregressive model.
+License: GPL
+Encoding: UTF-8
+RoxygenNote: 7.3.1
