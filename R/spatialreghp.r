@@ -111,7 +111,8 @@ spatialreg.hp <- function(mod,iv=NULL,commonality=FALSE)
         # modnew  <- stats::update(object = mod_null, data = dat,to_add) 
         #if(type=="dev")commonM[i, 2]  <- summary(modnew)$dev.expl
         #if(type=="adjR2")commonM[i, 2]  <- summary(modnew)$r.sq
-        commonM[i, 2]  <- summary(modnew)$adj.r.squared
+        #commonM[i, 2]  <- summary(modnew)$adj.r.squared
+		commonM[i, 2]  <- nagelkerke_r2_lm(modnew)
       }
       
       if('spatial' %in% tmp.name)
@@ -189,7 +190,8 @@ spatialreg.hp <- function(mod,iv=NULL,commonality=FALSE)
         # modnew  <- stats::update(object = mod_null, data = dat,to_add) 
         #if(type=="dev")commonM[i, 2]  <- summary(modnew)$dev.expl
         #if(type=="adjR2")commonM[i, 2]  <- summary(modnew)$r.sq
-        commonM[i, 2]  <- summary(modnew)$adj.r.squared
+        #commonM[i, 2]  <- summary(modnew)$adj.r.squared
+		commonM[i, 2]  <- nagelkerke_r2_lm(modnew)
       }
       
       if('spatial' %in% tmpname)
